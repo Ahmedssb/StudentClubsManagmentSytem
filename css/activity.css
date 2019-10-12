@@ -1,0 +1,77 @@
+*{
+    float: right;
+    color: ##004d4d;
+    text-align: right;
+ }
+body{
+    background-color:#CDD3DF;
+ }
+.header  {
+    float: none;
+    text-align: center;
+   margin: 0 auto;
+    color: #FFF;
+      width: 50%;
+      height: 50px;
+     margin-top: 10px;
+}
+
+.header span{
+    color: #5A8686;
+    font-weight: bold;
+    font-size: 25px;
+    float: none;
+    text-decoration: underline;
+   
+}
+
+form{
+     margin: 0 auto;
+    float: none;
+    width: 80%;
+ }
+
+form fieldset{
+margin-bottom: 5px; 
+  background-color: #fff;
+    border: 2px solid #5A8686;
+}
+
+.club-info div{
+    display: inline-block;
+    width: 30%;
+    padding: 0;
+    margin-bottom: 10px;
+ }
+.club-info lable{
+  margin-left: 20px;
+    width: 30%;
+    text-align: center;
+ }
+ 
+.goals{
+  }
+
+
+
+.goals div{
+display:inline-block;
+ width: 30%;    
+margin:0 20px 20px 20px;
+      
+}
+.goals label{
+    display: block;
+     width: 100%;
+   }
+.goals  textarea{
+  min-height: 100px; 
+ width: 100%;
+   }
+
+button{
+    background-color: #FFF;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-weight: bold;
+ }

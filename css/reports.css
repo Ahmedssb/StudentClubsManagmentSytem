@@ -1,0 +1,167 @@
+*{float: right;}
+
+/*start nav */
+*{
+	margin:0px;
+	padding:0px;
+	font-family: helvetica Neue;
+	font-weight: lighter;
+}
+
+nav{
+	position: fixed;
+	width: 300px;
+	height: 100%;
+	background-color: #2d2d2d;
+     right: 0px;
+}
+
+ul{
+	margin-top:150px;
+	list-style: none;
+	display: block;
+}
+
+li{
+	width: 100%;
+	height:50px;
+	border-bottom: 1px solid #323232;
+	overflow: hidden;
+}
+
+p.menu{
+	position: relative;
+	padding:16px;
+	padding-right: 25px;
+ 	color:white;
+	opacity: .6;
+	font-size: 1.2em;
+	-webkit-transition: opacity .2s;
+}
+
+div.barra{
+	position: absolute;
+	height: 50px;
+	width: 0px;
+	background-color: #aaa;
+	opacity: .1;
+	-webkit-transition: width .2s;
+}
+
+li:hover div.barra{
+	width:300px;
+}
+
+input#buscador{
+	width:285px;
+	height:50px;
+	background-color: #3c3c3c;
+	outline: none;
+	border: 0px;
+	color: white;
+	font-size: 1.2em;
+	text-align: right;
+	padding-right:15px;
+	background-image: url(../pictures/search.png);
+	background-repeat: no-repeat;
+	background-position: 15px 15px;
+	-webkit-transition: background-position .2s;
+}
+
+input#buscador:focus{
+	background-position: 300px 15px;
+}
+
+::-webkit-input-placeholder{
+	color: #e2e2e2;
+	text-align: right;
+	opacity: .1;
+}
+
+li:hover p.menu{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

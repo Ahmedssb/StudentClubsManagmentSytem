@@ -1,0 +1,568 @@
+@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+*{
+	margin:0px;
+	padding:0px;
+	font-family:‘Amiri’, serif;
+   /*font-family: helvetica Neue;*/
+
+}
+body
+{
+        height: 100%;
+     background-color:  #f0f3f4  ;
+    
+}
+/*#fdfefe*/
+header{
+   background-color:      #d2dbe4      ;      
+    height: 80px;
+    width:100%;
+    float: left;
+     overflow: hidden;
+    margin-bottom: 10px;
+border-bottom: 3px solid #FFF;
+    
+  }
+header img {
+    float: left;
+}
+.profile{
+position: absolute;
+right:290px;
+ top: 12px;    
+
+ }
+.headerDiv                               
+{
+       text-align: center;
+}
+.headerTitle{
+    position: absolute;
+    left: 30%;
+    top:0px;
+     height: 30px;
+     width: 250px;
+    /*border: 2px solid   #fdfefe ;*/
+    color: #062052;
+    font-size:22px;
+ 
+}
+.headerTitle img{
+    top: 0px;
+    border-radius: 10px;
+}
+header div{
+    display:inline-block;
+    margin-top: 1%;
+}
+.headerLogout{
+    position: absolute;
+ left:15px;
+  top: 8px;    
+}
+
+.club-info{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    border: 1px solid #f7f9f9; 
+    background-color:#f7f9f9;
+      color: #133E3E;
+    width:  80%;
+  height: 100px;
+  border-radius:25px;
+margin-bottom: 25px;
+margin-right: 50px;
+  }
+.club-info p{
+    text-align: center;
+    font-size: 15px;
+    margin-right: 5px;
+
+}
+.aboutclub{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    color: #133E3E;
+    width:  90%;
+    height: 100px;
+   border-radius:25px;
+   margin-bottom: 25px;
+    margin-right: 50px;  
+}
+.aboutclub p{
+  text-align: right;
+    font-weight: 200;
+     color:    #505f8c   ;
+     font-size: 16px;
+    text-align: center;
+}
+.profileInfo{
+  float: right;  
+  background-color: #FFF;
+ border: 1px solid #5A8686;
+width: 70%;
+height: 20%;
+ }
+.profileInfo input{
+    text-align: center;
+}
+.profileData{
+     border: 1px solid #5A8686; 
+    background-color:#5A8686;
+    width: 50%;
+    height:150px;
+margin:  auto 0;
+border-radius:20px; }
+
+.fix-float{
+    clear: both;
+}
+nav{
+	position: fixed;
+	width: 20%;
+	height: 100%;
+	background-color: #2d2d2d;
+   float: right;
+    right:0;
+   }
+
+ul{
+	margin-top:200px;
+     margin-bottom: 10x;
+	list-style: none;
+	display: block;
+      font-family: Verdana, Geneva, sans-serif;
+
+}
+
+li{
+	width: 100%;
+	height:50px;
+	border-bottom: 1px solid #323232;
+	overflow: hidden;
+
+}
+.logo{
+    position: absolute;
+    float: right;
+    width: 100%;
+    height: 12.5%;
+    right: 0px;
+    top: 0px;
+   opacity:0.8;
+}
+.logo img{
+    margin-top: 0px;
+width: 210px;
+height: 75px;
+border-radius:0 0 10px 0;
+border-bottom: 3px solid gray;}
+
+p.menu{
+	position: relative;
+	padding:16px;
+	padding-right: 25px;
+	float:right;
+	color:#FFF;
+	opacity: .6;
+	font-size: 1.2em;
+	-webkit-transition: opacity .2s;
+      font-family:Arial, Helvetica, sans-serif;
+     text-align: center;
+
+}
+
+div.barra{
+	position: absolute;
+	height: 50px;
+	width: 0px;
+	background-color: #aaa;
+	opacity: .1;
+	-webkit-transition: width .2s;
+}
+
+li:hover div.barra{
+	width:300px;
+}
+
+input#buscador{
+	width:285px;
+	height:50px;
+	background-color: #3c3c3c;
+	outline: none;
+	border: 0px;
+	color: white;
+	font-size: 1.2em;
+	text-align: right;
+	padding-right:15px;
+	background-image: url(../Images/search.png);
+	background-repeat: no-repeat;
+	background-position: 15px 15px;
+	-webkit-transition: background-position .2s;
+}
+
+input#buscador:focus{
+	background-position: 300px 15px;
+}
+
+::-webkit-input-placeholder{
+	color: #e2e2e2;
+	text-align: right;
+	opacity: .1;
+}
+
+li:hover p.menu{
+	opacity: 1;
+    color: #062052;
+}
+
+
+
+
+.container {
+    overflow: hidden;
+    position: relative;
+    margin: 0  ;
+    width: 80%;
+height: 100%;
+
+   }
+
+.con{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.con form{
+   width: 100;
+    margin: 0 auto;
+}
+
+.container .club-admins{
+    float:right;
+    width: 23.5%;
+    margin: 15px 4px 10px 4px ;
+    text-align: center;
+    background-color: #062052   ; 
+    color: #FFFFFF;   
+    border-radius: 15px 50px;
+    border: 2px solid  #b7950b;
+}
+.container .club-admins span{
+
+    color: #b7950b ; 
+    font-size: 22px;
+}
+.container .club-admins p{
+    font-weight:600;
+    color: #FFF ;  
+    font-size:15px; 
+}
+table{
+  border: 4px solid #FFF;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-right: 10px;
+  margin-left: 10px;   
+    
+}
+
+table caption{
+     margin-bottom: 10px;
+    color:  #b7950b ;
+     font-family: serif;
+    font-size: 25px;
+  
+}
+th, td {
+   text-align: right;
+  height: 30px;   
+   border: 2px solid #FFF   ;
+  padding: 4px;
+  text-align: center;
+}
+ table td{
+  width: 4%; 
+}
+table tr:nth-child(even){background-color: #eff2f4;
+}
+table tr:nth-child(odd){background-color: #FFF;
+}
+table tr:hover {background-color: #d6eaf8 ;}
+table th {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  background-color:  #062052 ;
+  color: #FFF;
+}
+
+.container .buttons {
+    float: right;
+    margin: 50px 50px 30px 10px;
+}
+
+.container .buttons button{
+  padding: 10px;  
+  background-color: #062052 ;
+ color: #FFFFFF;
+ border: 1px solid  #b7950b;
+  font-weight: bold;
+}
+
+.con div{
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.report{
+     margin: 0 auto;
+     margin-top: 50px;
+     text-align: center;
+    border: 2px solid #062052;
+    width: 80%;
+    color: #062052;
+    font-size: 18px;
+    padding: 10px 0;
+    border-radius: 20px;
+    margin-bottom: 30px;
+ }
+.report input{
+    text-align: center;
+    height: 30px;
+
+}
+
+.report-data{
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+
+
+/* code for add and update member */
+
+.input{
+    width: 45%;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+ 
+.input input,select{
+    margin-right: 15px;
+    text-align: center;
+}
+
+.input button {
+    width: 40%;
+     transform: translate(-50%, -50%);
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.error{
+    color:  #ff364f ;
+ }
+
+.iconbtn{
+      width: 40px;
+    height: 30px;
+    background: #FFF;
+    border: 2px solid  #add2ea ;
+    border-radius: 10px;
+ }
+ 
+ 
+.admins{
+      float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+}
+
+.admins1{
+      float: right;
+    margin-top: 10px;
+margin-bottom: 10px;
+     width: 30%;
+}
+.updateLogo{
+    position: relative;
+     
+ }
+.addupdatebtn button{
+  background-color: #062052 ;
+ color: #FFFFFF;
+ border: 1px solid  #b7950b;
+  font-weight: bold;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 76%;
+    margin-left: 15px;
+    float: left;
+ overflow: hidden;
+  border: 4px solid  #FFF;
+ background-color:     #fafafa      ;
+ border-radius: 25px;
+    margin-bottom: 50px;
+    padding: 5px 5px;
+  }
+.reportdocument{
+    text-align: center;
+    float: right;
+    margin-top: 10px;
+}
+.reportsimages{
+     border-right: 2px solid  #d2dbe4;
+    height: 100%;
+     overflow: hidden;
+     margin-top:20px ; 
+    width: 50%;
+}
+.reportsimages img{
+    float: right;
+    border: 3px solid    #d2dbe4 ;
+     margin: 5px;
+    width:200px;
+    height:150px;
+    border-radius:5px;
+    -webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+ }
+.reportsimages img:hover{
+    
+}
+.reportsimages p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.hovereffect {
+   
+  float: right;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.hovereffect:hover img {
+
+  filter: grayscale(1) blur(3px);
+  -webkit-filter: grayscale(1) blur(3px);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect a.info   {
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  color:  #FFF  ;
+    font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+                                                    
+fieldset{
+    margin-bottom: 5px;
+}
+fieldset .textarea{
+    margin: 0 auto;
+        margin-bottom: 10px;
+
+display: block;
+padding: 0 250px;
+}
+
+.successMessage{
+    color:  #5de88d ;
+    margin: 0 auto;
+    width: 700px;
+    height: 30px;
+    margin-right: 450px;
+     background-color:   #f7f8f7  ;
+    text-align: center;
+     font-size: 17px;
+    margin-top: 0px;
+    border-radius:5px; 
+    border: 2px dashed   #adb8b3 ;
+    font-family: Tahoma, Geneva, sans-serif;
+ }
+
+.errorMessage{
+color:  #ff364f ;
+}
+.documents{
+    width: 50%;
+    float: right;
+    text-align: center;
+ }
+.documents a{
+  position: absolute;
+right: 30px;
+    top:150px;
+}
+.documents p{
+  position: absolute;
+right: 150px;
+ top:30px;
+font-size: 20px;
+ }
+ 

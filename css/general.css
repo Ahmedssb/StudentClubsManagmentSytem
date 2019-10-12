@@ -1,0 +1,250 @@
+*{
+ 	margin:0px;
+	padding:0px;
+ font-family:‘Amiri’, serif;
+
+ }
+body
+{
+       background-color: #f5f7f9;
+    width: 100%;
+ 
+}
+header{
+   background-color:      #d2dbe4      ;      
+    height: 80px;
+    width:100%;
+    float: left;
+     overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: 0px;
+border-bottom: 3px solid #FFF;
+    top: 0px;
+padding: 0px;
+  }
+
+.gprofile{
+position: absolute;
+right:50px;
+ top: 12px;
+ }
+.headerDiv
+{
+       text-align: center;
+}
+.gheaderTitle{
+    position: absolute;
+    left: 40%;
+    top:5px;
+     height: 30px;
+     width: 200px;
+    
+    color:#062052 ;
+    font-size:20px;
+}
+header div{
+    display:inline-block;
+    margin-top: 1%;
+}
+
+.headerLogout{
+    position: absolute;
+ left:25px;
+  top: 8px;    
+}
+.fix-float{
+    clear: both;
+}
+ 
+
+.system-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #FFF;
+}
+
+.generalcontainer {
+  margin: 0 auto;
+ margin-right:22%;
+
+ width: 75%;
+ overflow: hidden;
+  border: 4px solid  #FFF;
+ background-color: #fafafc;
+ border-radius: 25px;
+    margin-bottom: 50px;
+    padding: 10px 5px;
+  }
+.generalcontainer .buttons{
+    float: right;
+    margin: 50px 50px 30px 10px;
+}
+
+.generalcontainer .buttons button{
+  padding: 10px;  
+  background-color: #062052 ;
+ color: #FFFFFF;
+  font-weight: bold;
+}
+.supContainer{
+      margin: 0 auto;
+ margin-right: 150px;
+ width: 75%;
+ overflow: hidden;
+  border: 5px solid  #FFF;
+ background-color: #fafafc;
+ border-radius: 25px;
+
+ padding: 10px 5px;
+}
+.container-cities{
+    position: relative;
+    width: 23.5%;
+    height: 160px;
+    float: right;
+    margin: 5px;
+    border: 2px solid  #062052;  
+    border-radius:9px;
+
+ }
+.container-cities img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in;
+}
+.container-cities .updatClubbtn{
+    position:absolute;
+    color: white;
+     bottom: 25px;
+    right: 1px;
+      font-family: monospace;
+    color: lightgoldenrodyellow;
+    padding: 3px 0px;
+    font-weight: 100px;
+    font-size: 15px;
+    transform: translateY(20px);
+    opacity: 1;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    background-color:gray;
+}
+.container-cities .deleteClubbtn{
+   position:absolute;
+    color: white;
+     bottom: 0;
+    left:0;
+      font-family: monospace;
+    color: lightgoldenrodyellow;
+    padding: 3px 0px;
+    font-weight: 100px;
+    font-size: 15px;
+    transform: translateY(20px);
+    opacity: 1;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    background-color:gray;
+}
+ 
+.container-cities  button{
+    padding: 3px 20px;
+}
+.imghead{
+    position:absolute;
+    color:  #FFF;
+    left: 0px;
+    bottom: 70px;
+    right: 0px;
+    font-family: monospace;
+     padding: 3px 0px;
+    font-weight: 500px;
+    font-size: 20px;
+    transform: translateY(20px);
+    opacity: 1;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    background-color:   #062052  ;
+}
+.imghead .clubType{
+    color: #b7950b;
+}
+.container-cities:hover .imghead{
+    transform: translateY(-32px);
+    font-size: 20px;
+    opacity: 1;
+    transition: all 0.5s ease-in;
+    color: #FFF;
+}
+.container-cities:hover img{
+    transform: scale(1);
+    transition: all 1s ease-in;
+    filter: brightness(.5);
+      opacity: 0.8;
+
+}
+
+
+.account{
+     color: #FFF;
+     margin: 10px;
+}
+
+.filter{
+    float: right;
+     margin: 0 auto;
+  margin-right:22%;
+ width: 75%;
+ overflow: hidden;
+  border: 4px solid  #FFF;
+ background-color: #fafafc;
+ border-radius: 25px;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    text-align: right;
+}
+.filter button{
+  padding: 5px 10px;   
+  background-color:  #d2dbe4  ;
+ color: #FFFFFF;
+  font-weight: bold;
+    font-size: 17px;
+    margin: 0 auto;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+ body{
+ background-color:#F5F5F5;
+}
+h3{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+.container{
+    position: absolute;
+    width: 70%;
+    border: 2px solid #F5F5F5;
+    margin: 5px;
+    float: right;
+    top: 30%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+    margin-top: 50px;
+    padding: 10px;
+     background-color:#fff;
+
+}
+ 
+
+.input{
+    width: 45%;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+ 
+.input input,select{
+    margin-right: 15px;
+    text-align: center;
+}
+
+.input button {
+    width: 40%;
+     transform: translate(-50%, -50%);
+    margin-top: 50px;
+    padding: 10px;
+}

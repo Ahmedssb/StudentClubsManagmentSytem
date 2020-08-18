@@ -11,7 +11,7 @@ class Connection {
     public function connect(){
         $this->servername ="nnmeqdrilkem9ked.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
         $this->username ="itvwm6hrxxsqxg1d";
-        $this->password ="oolnj0jzjcvqtoxo	";
+        $this->password ="oolnj0jzjcvqtoxo";
         $this->dbname ="mt4d5ucrye70yqzb";
 		$this->charset="utf8mb4";
         

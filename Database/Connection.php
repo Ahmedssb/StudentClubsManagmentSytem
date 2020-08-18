@@ -9,10 +9,10 @@ class Connection {
     private $charset;
     
     public function connect(){
-        $this->servername ="fdb21.awardspace.net";
-        $this->username ="3108952_studentclub";
-        $this->password ="2150010521student";
-        $this->dbname ="3108952_studentclub";
+        $this->servername ="nnmeqdrilkem9ked.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+        $this->username ="itvwm6hrxxsqxg1d";
+        $this->password ="oolnj0jzjcvqtoxo	";
+        $this->dbname ="mt4d5ucrye70yqzb";
 		$this->charset="utf8mb4";
         
        $conn = new mysqli($this->servername, $this->username,$this->password,$this->dbname);
